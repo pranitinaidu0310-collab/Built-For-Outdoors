@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Built For Outdoors — real adventures, offbeat trails, trekking, climbing and outdoor learning across India.">
+<title>Built For Outdoors | Real Adventures. No Shortcuts.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--black:#0b0c0a;--panel:#141612;--gold:#d5ad62;--cream:#f4f0e7;--muted:#aaa99f;--line:rgba(213,173,98,.25)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(1160px,90%);margin:auto}.gold{color:var(--gold)}.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--gold);font-size:.72rem;font-weight:700}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border:1px solid var(--gold);background:var(--gold);color:#111;font-weight:700;letter-spacing:.4px;transition:.25s;cursor:pointer}.btn:hover{background:transparent;color:var(--gold)}.btn.ghost{background:transparent;color:var(--cream);border-color:rgba(244,240,231,.45)}.btn.ghost:hover{border-color:var(--gold);color:var(--gold)}header{position:absolute;z-index:5;top:0;left:0;width:100%;border-bottom:1px solid rgba(255,255,255,.12)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:'Playfair Display';font-size:1.35rem;letter-spacing:1px;font-weight:700}.brand small{display:block;font:600 .58rem 'DM Sans';letter-spacing:4px;color:var(--gold);margin-top:2px}.navlinks{display:flex;gap:30px;align-items:center;font-size:.85rem;color:#e5e0d5}.navlinks a:hover{color:var(--gold)}.menu{display:none;background:none;border:0;color:white;font-size:1.7rem}.hero{min-height:760px;display:flex;align-items:center;position:relative;background:linear-gradient(90deg,rgba(5,7,5,.92) 0%,rgba(5,7,5,.58) 54%,rgba(5,7,5,.2) 100%),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=85') center/cover}.hero:after{content:"";position:absolute;inset:auto 0 0;height:160px;background:linear-gradient(transparent,var(--black))}.hero-content{position:relative;z-index:1;padding-top:80px;max-width:720px}.hero h1{font:600 clamp(3.3rem,7vw,6.7rem)/.99 'Playfair Display';margin:22px 0}.hero h1 span{color:var(--gold);font-style:italic}.hero p{max-width:550px;color:#ddd8cc;font-size:1.05rem;line-height:1.8;margin:25px 0 32px}.actions{display:flex;gap:14px;flex-wrap:wrap}.scroll{position:absolute;z-index:2;bottom:50px;right:5%;writing-mode:vertical-rl;letter-spacing:3px;font-size:.65rem;color:var(--gold)}section{padding:105px 0}.section-head{max-width:680px;margin-bottom:48px}.section-head h2{font:600 clamp(2.3rem,4vw,3.7rem)/1.1 'Playfair Display';margin:14px 0}.section-head p{color:var(--muted);line-height:1.8}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.intro-photo{min-height:480px;background:url('https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=85') center/cover;position:relative}.intro-photo:after{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--gold);z-index:-1}.intro-copy p{color:var(--muted);line-height:1.9}.stats{display:flex;gap:35px;margin-top:35px;padding-top:25px;border-top:1px solid var(--line)}.stat strong{font:600 2rem 'Playfair Display';color:var(--gold);display:block}.stat span{font-size:.72rem;letter-spacing:1px;color:var(--muted);text-transform:uppercase}.dark-section{background:#10120f}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid rgba(255,255,255,.07);transition:.3s}.card:hover{transform:translateY(-7px);border-color:var(--gold)}.card-img{height:250px;background-size:cover;background-position:center}.card-body{padding:25px}.card h3{font:600 1.55rem 'Playfair Display';margin:0 0 12px}.card p{color:var(--muted);font-size:.9rem;line-height:1.75;margin:0}.card .number{color:var(--gold);font-size:.72rem;letter-spacing:2px;margin-bottom:15px;display:block}.quote{padding:95px 0;text-align:center;background:linear-gradient(rgba(7,9,7,.82),rgba(7,9,7,.88)),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85') center/cover}.quote blockquote{max-width:850px;margin:20px auto;font:500 clamp(2rem,4vw,3.6rem)/1.25 'Playfair Display'}.quote cite{font-style:normal;color:var(--gold);letter-spacing:2px;font-size:.75rem}.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:220px 220px;gap:14px}.gallery-item{background-size:cover;background-position:center;position:relative;overflow:hidden}.gallery-item:first-child{grid-row:span 2}.gallery-item:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,rgba(0,0,0,.45))}.gallery-label{position:absolute;z-index:1;bottom:18px;left:18px;font-size:.75rem;letter-spacing:1px;text-transform:uppercase}.insta-note{margin-top:25px;color:var(--muted);font-size:.85rem}.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px}.contact-info p{color:var(--muted);line-height:1.8}.contact-line{padding:18px 0;border-bottom:1px solid var(--line)}.contact-line span{display:block;color:var(--gold);font-size:.7rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:7px}.form{background:var(--panel);padding:34px;border:1px solid var(--line)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{margin-bottom:17px}.field label{display:block;font-size:.75rem;color:#d6d0c3;margin-bottom:8px}.field input,.field textarea,.field select{width:100%;background:#0d0f0c;border:1px solid #34372e;padding:14px;color:var(--cream);outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--gold)}.field textarea{min-height:115px;resize:vertical}.form small{display:block;color:var(--muted);line-height:1.6;margin-top:13px}footer{padding:35px 0;border-top:1px solid rgba(255,255,255,.1);color:var(--muted);font-size:.8rem}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.social{color:var(--gold)}.float{position:fixed;z-index:8;right:22px;bottom:22px;background:var(--gold);color:#111;padding:14px 18px;border-radius:30px;font-size:.8rem;font-weight:700;box-shadow:0 8px 30px #0008}
+@media(max-width:800px){.navlinks{display:none;position:absolute;top:82px;left:0;width:100%;background:#0b0c0a;padding:25px 5%;flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}.hero{min-height:690px}.intro-grid,.contact-grid{grid-template-columns:1fr;gap:40px}.intro-photo{min-height:350px;margin-right:18px}.cards{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:190px 190px 190px}.gallery-item:first-child{grid-row:span 2}.gallery-item:last-child{grid-column:span 2}.scroll{display:none}}
+@media(max-width:520px){section{padding:75px 0}.cards{grid-template-columns:1fr}.form{padding:22px}.form-row{grid-template-columns:1fr}.stats{gap:20px}.stat strong{font-size:1.6rem}.footer-row{align-items:flex-start;flex-direction:column}.gallery{grid-template-rows:160px 160px 160px}.hero h1{font-size:3.5rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">BFO <small>BUILT FOR OUTDOORS</small></a>
+<nav class="navlinks" id="navlinks"><a href="#story">OUR STORY</a><a href="#experiences">EXPERIENCES</a><a href="#gallery">THE OUTDOORS</a><a href="#contact">CONTACT</a><a class="btn" href="#contact">PLAN AN ADVENTURE ↗</a></nav>
+<button class="menu" aria-label="Open menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-content">
+<div class="eyebrow">Adventure • Community • The Wild</div>
+<h1>Go beyond<br>the <span>ordinary.</span></h1>
+<p>Real adventures. No shortcuts. From hidden trails and wild landscapes to climbing, highlining and outdoor learning — find your kind of adventure with BFO.</p>
+<div class="actions"><a class="btn" href="#experiences">EXPLORE EXPERIENCES ↗</a><a class="btn ghost" href="#contact">LET'S TALK</a></div>
+</div><div class="scroll">SCROLL TO EXPLORE ↓</div></section>
+
+<section id="story"><div class="wrap intro-grid">
+<div class="intro-photo" role="img" aria-label="Wild landscape"></div>
+<div class="intro-copy"><div class="eyebrow">The BFO philosophy</div><h2 style="font:600 clamp(2.3rem,4vw,3.6rem)/1.1 'Playfair Display';margin:15px 0 22px">Built for the wild.<br><span class="gold">Made for the curious.</span></h2>
+<p>We believe the outdoors is more than a destination. It is a way to reconnect, learn, challenge yourself and find your people. BFO creates immersive outdoor experiences rooted in real exploration, thoughtful planning and respect for nature.</p>
+<p>No artificial thrills. No ticking boxes. Just meaningful time outside, guided by experience and a love for the wild.</p>
+<div class="stats"><div class="stat"><strong>200+</strong><span>Expeditions led*</span></div><div class="stat"><strong>India</strong><span>From Sahyadris to Himalayas</span></div></div>
+<small style="color:#777;font-size:.68rem">*Founder experience; update or remove this figure if it does not reflect the organisation's current record.</small>
+</div></div></section>
+
+<section class="dark-section" id="experiences"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Find your next story</div><h2>More than a trip.<br><span class="gold">An experience.</span></h2><p>Step out of routine and into the landscapes, skills and moments that stay with you. Tell us what excites you and we'll help you find the right experience.</p></div>
+<div class="cards">
+<article class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=85')"></div><div class="card-body"><span class="number">01 / ON FOOT</span><h3>Trekking & Expeditions</h3><p>From Sahyadri trails to Himalayan routes and offbeat landscapes, explore beyond the usual path.</p></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=900&q=85')"></div><div class="card-body"><span class="number">02 / VERTICAL</span><h3>Climbing & Highlining</h3><p>Discover movement, focus and confidence through skill-led experiences in the outdoors.</p></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=900&q=85')"></div><div class="card-body"><span class="number">03 / HANDS-ON</span><h3>Outdoor Learning</h3><p>Build practical skills, grow your connection with nature and learn to explore responsibly.</p></div></article>
+</div></div></section>
+
+<div class="quote"><div class="wrap"><div class="eyebrow">A different kind of getting away</div><blockquote>“The best stories begin where the road ends.”</blockquote><cite>BUILT FOR OUTDOORS</cite></div></div>
+
+<section id="gallery"><div class="wrap"><div class="section-head"><div class="eyebrow">A glimpse of the wild</div><h2>Out there is <span class="gold">where it happens.</span></h2><p>Trails, people, landscapes and the little moments that make every adventure worth remembering.</p></div>
+<div class="gallery">
+<div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85')"><span class="gallery-label">Into the mountains</span></div>
+<div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=85')"><span class="gallery-label">Find your trail</span></div>
+<div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=85')"><span class="gallery-label">Into the green</span></div>
+<div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=85')"><span class="gallery-label">Wild encounters</span></div>
+<div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=85')"><span class="gallery-label">Chase the horizon</span></div>
+</div>
+<p class="insta-note">Want to see the latest BFO adventures? Follow the journey on Instagram.</p>
+<a class="btn ghost" target="_blank" rel="noopener" href="https://www.instagram.com/bfo_builtforoutdoors/">FOLLOW @BFO_BUILTFOROUTDOORS ↗</a>
+</div></section>
+
+<section class="dark-section" id="contact"><div class="wrap contact-grid">
+<div class="contact-info"><div class="eyebrow">Your next adventure starts here</div><h2 style="font:600 clamp(2.5rem,4vw,3.8rem)/1.08 'Playfair Display';margin:16px 0">Let's get<br><span class="gold">you outdoors.</span></h2><p>Have a question, want to join an upcoming batch, or planning a custom outdoor experience? Send us a message. Tell us what you're dreaming of — we'll take it from there.</p>
+<div class="contact-line"><span>Instagram</span><a class="social" target="_blank" rel="noopener" href="https://www.instagram.com/bfo_builtforoutdoors/">@bfo_builtforoutdoors ↗</a></div>
+<div class="contact-line"><span>Based in</span><div>India · Adventures across India</div></div>
+</div>
+<form class="form" id="enquiryForm">
+<div class="form-row"><div class="field"><label for="name">YOUR NAME *</label><input id="name" name="name" required placeholder="Name"></div><div class="field"><label for="phone">PHONE / WHATSAPP *</label><input id="phone" name="phone" required placeholder="+91 ..." inputmode="tel"></div></div>
+<div class="field"><label for="email">EMAIL</label><input id="email" name="email" type="email" placeholder="you@example.com"></div>
+<div class="field"><label for="interest">WHAT ARE YOU INTERESTED IN?</label><select id="interest" name="interest"><option>Trekking & expeditions</option><option>Climbing & highlining</option><option>Outdoor learning</option><option>Custom group experience</option><option>Something else</option></select></div>
+<div class="field"><label for="message">TELL US A LITTLE MORE *</label><textarea id="message" name="message" required placeholder="Where would you like to go? How many people are joining?"></textarea></div>
+<button class="btn" type="submit">SEND ENQUIRY VIA WHATSAPP ↗</button>
+<small>This opens WhatsApp with your enquiry ready to send. BFO must add its official WhatsApp number in the code before the form can be used.</small>
+<div id="formStatus" aria-live="polite" style="color:var(--gold);font-size:.82rem;margin-top:12px"></div>
+</form>
+</div></section>
+</main>
+<footer><div class="wrap footer-row"><a class="brand" href="#home">BFO <small>BUILT FOR OUTDOORS</small></a><span>Real adventures. No shortcuts.</span><a class="social" href="https://www.instagram.com/bfo_builtforoutdoors/" target="_blank" rel="noopener">Instagram ↗</a><span>© <span id="year"></span> Built For Outdoors</span></div></footer>
+<a class="float" href="https://www.instagram.com/bfo_builtforoutdoors/" target="_blank" rel="noopener">DM BFO ↗</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('enquiryForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ // IMPORTANT: Replace this with BFO's official WhatsApp number, country code included, digits only.
+ const BFO_WHATSAPP_NUMBER='91XXXXXXXXXX';
+ if(BFO_WHATSAPP_NUMBER.includes('X')){document.getElementById('formStatus').textContent='The enquiry form is designed. BFO needs to add its official WhatsApp number to activate submissions.';return;}
+ const d=new FormData(this);
+ const msg=`Hello BFO! I'd like to enquire about an adventure.\\nName: ${d.get('name')}\\nPhone: ${d.get('phone')}\\nEmail: ${d.get('email')||'Not provided'}\\nInterest: ${d.get('interest')}\\nMessage: ${d.get('message')}`;
+ window.open(`https://wa.me/${BFO_WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,'_blank');
+});
+</script>
+</body></html>
